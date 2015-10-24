@@ -14,6 +14,20 @@
  *= require_self
  */
  body {
-   background-color: #FC9;
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      #F5ABA6,
+      #E39DC2,
+      #C59BCB,
+      #B6B7D4,
+      #B1CAD6
+      );
+   font-family: 'Fjalla One', sans-serif;
+   height: 100vh;
+   padding-top: 60px;
+ }
+
+ h1 {
    font-family: 'Fjalla One', sans-serif;
  }
